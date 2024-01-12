@@ -1,5 +1,5 @@
 // Conjunto de dados: 100, 500, 1000, 5000, 30000, 80000, 10000, 150000 e 200000
-// Algoritmos: Buble Sort, Selection Sort, Insertion Sort, Merge Sort, Quick Sort e Counting Sort
+// Algoritmos: QuickSortHoare e QuickSortLomuto
 
 import scripts.*;
 import util.GenerateData;
@@ -7,7 +7,7 @@ import util.GenerateData;
 public class Main {
 
     public static void main(String[] args) {
-        
+
         QuickSortAlgorithm QuickSortHoare = new QuickSortHoare();
         QuickSortAlgorithm QuickSortLomuto = new QuickSortLomuto();
 
